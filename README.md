@@ -80,13 +80,7 @@ This project demonstrates a powerful approach to text categorization, combining 
 
 ## Results
 
-| Metric       | Score   |
-|--------------|---------|
-| Accuracy     | 89%     |
-| F1 Score     | 0.87    |
-| Precision    | 0.89    |
-| Recall       | 0.86    |
-
+### Class-Specific Metrics
 
 | Classes        | Precision | Recall | F1-score |
 |----------------|-----------|--------|----------|
@@ -95,6 +89,16 @@ This project demonstrates a powerful approach to text categorization, combining 
 | Politics       | 70%       | 80%    | 74%      |
 | Sports         | 89%       | 86%    | 87%      |
 | Tech           | 78%       | 78%    | 78%      |
+
+### Overall Metrics
+
+| Metric    | Score |
+|-----------|-------|
+| Accuracy  | 80%   |
+| F1 Score  | 0.87  |
+| Precision | 0.89  |
+| Recall    | 0.86  |
+
 
 
 ## Dependencies
