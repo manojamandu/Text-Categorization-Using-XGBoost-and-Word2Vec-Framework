@@ -9,7 +9,6 @@
 - [Results](#results)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -81,14 +80,22 @@ This project demonstrates a powerful approach to text categorization, combining 
 
 ## Results
 
-Include performance metrics or a summary of the results, such as accuracy achieved on test data, confusion matrix, or other relevant details. Sample output:
-
 | Metric       | Score   |
 |--------------|---------|
-| Accuracy     | 92%     |
-| F1 Score     | 0.90    |
-| Precision    | 0.91    |
-| Recall       | 0.89    |
+| Accuracy     | 89%     |
+| F1 Score     | 0.87    |
+| Precision    | 0.89    |
+| Recall       | 0.86    |
+
+
+| Classes        | Precision | Recall | F1-score |
+|----------------|-----------|--------|----------|
+| Business       | 84%       | 78%    | 81%      |
+| Entertainment  | 80%       | 79%    | 79%      |
+| Politics       | 70%       | 80%    | 74%      |
+| Sports         | 89%       | 86%    | 87%      |
+| Tech           | 78%       | 78%    | 78%      |
+
 
 ## Dependencies
 
@@ -105,16 +112,9 @@ Install all dependencies via `requirements.txt`.
 
 Contributions are welcome! Please fork the repository, create a new branch for any feature or bugfix, and submit a pull request for review.
 
-## License
-
-Specify your project’s license here, for example:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Inspired by [original research or other relevant sources].
 - Libraries and frameworks: XGBoost, Gensim's Word2Vec, Scikit-learn.
 
 ---
-
-This template should help provide clarity on the project's purpose, usage, and setup, making it accessible for others. You can tailor each section to better reflect the specific details and findings of your project.
